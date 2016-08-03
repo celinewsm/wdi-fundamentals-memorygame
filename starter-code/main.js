@@ -1,21 +1,7 @@
-console.log("JS file is connected to HTML! Woo!");
-
-
-/**
-//remove original divs
-var board = document.getElementById('game-board');
-while (board.firstChild) {
-    board.removeChild(board.firstChild);
-} **/
-
-
-
 
 var cards = [ 'Queen' , 'Queen' , 'King' , 'King' ];
 var cardsInPlay = [];
 
-
-//add cards
 var board = document.getElementById("game-board");
 
 function createBoard() {
